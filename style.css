@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin:  0 auto;
+    
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 700px;
+    width: 100%;
+    margin-top: 4rem;
+    
+}
+.block-three {
+    background-color:rgb(158, 148, 148);
+    height: 700px;
+
+}
+
+.logo-topaz {
+    width: 300px;
+    height: auto;
+    padding: 2em;
+    background-color:#fff;
+}
+.image-mitel {
+    width: 400px;
+    height: 700px;
+    object-fit: cover;
+    display: block;
+
+}
+
+.block-one, .block-two , .block-three {
+    width: 400px;
+}
+.block-three {
+    background-color:red;
+    height: 700px;
+}
